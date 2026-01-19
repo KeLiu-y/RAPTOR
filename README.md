@@ -6,7 +6,6 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.7+-blue.svg)](https://pytorch.org/)
 [![MMRotate](https://img.shields.io/badge/MMRotate-0.3.4-orange.svg)](https://github.com/open-mmlab/mmrotate)
 
-[📘 Paper (Coming soon)](#) | [📊 Military-RSOD Dataset](#) | [🚀 Installation](#) | [🛠️ Get Started](#)
 
 </div>
 
