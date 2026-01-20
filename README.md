@@ -40,7 +40,7 @@
 | | S²ANet | LEGNet-S | 175.3 | 83.46 |
 | | S²ANet | LSKNet-S | 164.3 | 83.80 |
 | | S²ANet | PKINet-S | 502.6 | 83.86 |
-| | **S²ANet** | **RDMFN (Ours)** | **161.53** | **84.16** |
+| | **S²ANet** | **RAPTOR (Ours)** | **161.53** | **84.16** |
 | **Two-Stage** | CenterMap | ResNet-50 | 198.4 | 80.56 |
 | | SCRDet | ResNet-50 | - | 81.50 |
 | | Roi Trans. | ResNet-50 | 225.4 | 84.26 |
@@ -49,7 +49,7 @@
 | | O-RCNN | LSKNet-S | 173.6 | 84.84 |
 | | O-RCNN | DecoupleNet | 142.4 | 84.47 |
 | | O-RCNN | LEGNet-S | 184.6 | 85.42 |
-| | **O-RCNN** | **RDMFN (Ours)** | **172.55** | **86.39** |
+| | **O-RCNN** | **RAPTOR (Ours)** | **172.55** | **86.39** |
 
 ---
 
