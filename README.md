@@ -1,8 +1,7 @@
+> [!CAUTION]
+> **Code and datasets will be released upon acceptance of the paper.**
+
 <div align="center">
-  <font size="20" color="red">
-    <strong>Code and datasets will be released upon acceptance of the paper.</strong>
-  </font>
-</div>
 
 <br/>
 
