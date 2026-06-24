@@ -1,0 +1,15 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/home/lq/MM_Comparison/mmrotate-main/tools/train.py", line 9, in <module>
+    import mmcv
+  File "/home/lq/anaconda3/envs/openmmlab3/lib/python3.10/site-packages/mmcv/__init__.py", line 6, in <module>
+    from .fileio import *
+  File "/home/lq/anaconda3/envs/openmmlab3/lib/python3.10/site-packages/mmcv/fileio/__init__.py", line 2, in <module>
+    from .file_client import BaseStorageBackend, FileClient
+  File "/home/lq/anaconda3/envs/openmmlab3/lib/python3.10/site-packages/mmcv/fileio/file_client.py", line 15, in <module>
+    from mmcv.utils.misc import has_method
+  File "/home/lq/anaconda3/envs/openmmlab3/lib/python3.10/site-packages/mmcv/utils/__init__.py", line 22, in <module>
+    import torch
+  File "/home/lq/anaconda3/envs/openmmlab3/lib/python3.10/site-packages/torch/__init__.py", line 235, in <module>
+    from torch._C import *  # noqa: F403
+KeyboardInterrupt
