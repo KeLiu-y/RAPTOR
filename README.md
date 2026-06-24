@@ -48,9 +48,13 @@ Comparison of RAPTOR with current state-of-the-art (SOTA) methods on the **Milit
 | | O-RCNN | LSKNet-S | 173.6 | 84.84 |
 | | O-RCNN | DecoupleNet | 142.4 | 84.47 |
 | | O-RCNN | LEGNet-S | 184.6 | 85.42 |
-| | **O-RCNN** | **RAPTOR (Ours)** | **172.55** | **86.39** |
+| | **O-RCNN** | **RAPTOR (Ours)** | **172.55** | **86.47** |
 
 ---
+
+### Model Weights
+- **Backbone Pretrained Weights**: [xxx](xxx)
+- **Trained Model Weights**: [xxx](xxx)
 
 ## 📂 Military-RSOD Dataset
 
