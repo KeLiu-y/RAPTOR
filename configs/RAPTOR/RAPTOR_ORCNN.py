@@ -20,7 +20,7 @@ model = dict(
 
         init_cfg=dict(
             type='Pretrained',
-            checkpoint='/home/lq/pt/DCN4_pt/64_epoch_297.pth',
+            checkpoint='',
             prefix='backbone.')
     ),
 
