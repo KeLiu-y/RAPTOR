@@ -1,5 +1,5 @@
 _base_ = [
-    '../_base_/datasets/Military_RSOD2.py', '../_base_/schedules/schedule_3x.py',
+    '../_base_/datasets/Military_RSOD.py', '../_base_/schedules/schedule_3x.py',
     '../_base_/default_runtime.py'
 ]
 
@@ -15,25 +15,24 @@ model = dict(
         norm_layer=dict(type='GN', num_groups=8, requires_grad=True),
         init_cfg=dict(
             type='Pretrained',
-            checkpoint='/home/lq/pt/DCN4_pt/64_epoch_297.pth',
+            checkpoint='',
             prefix='backbone.')
     ),
     
-    # ==================== 这是修正点 1 ====================
+
     neck=dict(
         type='FPN',
-        # 必须与 backbone (base_channels=64) 的输出 [64, 128, 256, 512] 匹配
         in_channels=[64, 128, 256, 512], 
         out_channels=256,
-        start_level=1, # FPN 从 P3 开始 (stride=8)
+        start_level=1, 
         add_extra_convs='on_input',
-        num_outs=5), # FPN 输出 P3, P4, P5, P6, P7
-    # ==========================================================
+        num_outs=5), 
 
-    # --- S2ANet heads (结构保持不变) ---
+
+
     fam_head=dict(
         type='RotatedRetinaHead',
-        num_classes=53,
+        num_classes=37,
         in_channels=256,
         stacked_convs=2,
         feat_channels=256,
@@ -65,7 +64,7 @@ model = dict(
         featmap_strides=[8, 16, 32, 64, 128]),
     odm_head=dict(
         type='ODMRefineHead',
-        num_classes=53,
+        num_classes=37,
         in_channels=256,
         stacked_convs=2,
         feat_channels=256,
