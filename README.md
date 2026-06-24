@@ -20,7 +20,7 @@ Addressing the challenges of extreme geometric variability, ambiguous context, a
 * **Parallel Local-Global Fusion Block (PLGFB)**: Collaborates two specialized branches for feature extraction. The **GR-DC** (Grouped Rotation-Deformable Convolution) branch dynamically predicts rotation angles to adapt to object contours, while the **RVMB** branch utilizes the linear complexity of Vision Mamba to capture global context.
 * **LoGGS Guided Stem**: Adopts Laplacian-of-Gaussian (LoG) filters to enhance edge priors and suppress noise at the input stage.
 * **ADRFD Downsampling Module**: Introduces Adaptive Dynamic Routing Fusion Downsampling to intelligently preserve fine-grained details and drastically reduce spatial information loss.
-* **Military-RSOD Dataset**: Constructed a large-scale military remote sensing dataset containing **53 fine-grained categories** and 18,195 images, providing precise Oriented Bounding Box (OBB) annotations.
+* **Military-RSOD Dataset**: Constructed a large-scale military remote sensing dataset with precise Oriented Bounding Box (OBB) annotations. The full research version contains **53 fine-grained categories** and 18,195 images; the public downloadable version has been adjusted under confidentiality requirements.
 
 ---
 
@@ -58,6 +58,8 @@ The dataset covers a full range of sea, land, and air military targets, enabling
 * **Air Targets**: Strategic bombers (B-1B, TU-160), Transports (C-17), 5th-gen Fighters (F-35, SU-35), etc.
 * **Sea Targets**: Nimitz-class aircraft carriers (NAA), Arleigh Burke-class destroyers (ABD), submarines, auxiliary ships.
 * **Ground Facilities**: Armored Fighting Vehicles (AFV), Military Construction Vehicles (MCV), bridges, airport facilities.
+
+Due to confidentiality agreements, the publicly downloadable version of Military-RSOD has been adjusted and some categories have been removed. The reported experimental results are based on the full research version described in the paper.
 
 ### 📥 Dataset Download
 - **Baidu Netdisk**: [To be released](#) (Access Code: `xxxx`)
