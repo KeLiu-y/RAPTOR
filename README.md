@@ -53,8 +53,8 @@ Comparison of RAPTOR with current state-of-the-art (SOTA) methods on the **Milit
 ---
 
 ### Model Weights
-- **Backbone Pretrained Weights**: [xxx](xxx)
-- **Trained Model Weights**: [xxx](xxx)
+- **Backbone Pretrained Weights**: [RAPTOR_pretrained.pth](https://pan.baidu.com/s/1PKkOrCyh2CCEnL2c1zRVAQ) (Access Code: `d3mj`)
+- **Trained Model Weights**: [best.pth](https://pan.baidu.com/s/1RcrNQR6i-_Qdto8hE2TA6g) (Access Code: `qhek`)
 
 ## 📂 Military-RSOD Dataset
 
@@ -66,7 +66,7 @@ The dataset covers a full range of sea, land, and air military targets, enabling
 Due to confidentiality agreements, the publicly downloadable version of Military-RSOD has been adjusted and some categories have been removed. The reported experimental results are based on the full research version described in the paper.
 
 ### 📥 Dataset Download
-- **Baidu Netdisk**: [To be released](#) (Access Code: `xxxx`)
+- **Baidu Netdisk**: [Military-RSOD_split.tar.gz](https://pan.baidu.com/s/16r-UM9I0-wNfc_2COJXZNw) (Access Code: `jxdv`)
 
 ---
 
